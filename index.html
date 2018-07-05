@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  body: {
+    margin: none;
+    overflow: hidden;
+  }
+  </style>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io('http://localhost');
+      socket.on('serial', function (data) {
+        document.body.innerHTML += data.data;
+      });
+      </script>
+      <script src="assets/js/updateStomp.js"></script>
+    <script src="assets/js/phaser.min.js"></script>
+    <script src="assets/js/game.js"></script>
+    <script src="assets/js/three.min.js"></script>
+    <script>
+      var cX = 509;
+      var cY = 520;
+      socket.on('input', function(data){
+        UpdateStomp.inputState = 0;
+        if(data.input){
+          if(cX !== parseInt(data.input[0])){
+            if(parseInt(data.input[0]) > 1000){
+              UpdateStomp.inputState = 1;
+            }
+          }
+          if(cY !== parseInt(data.input[1])){
+            if(parseInt(data.input[1]) > 1000){
+              UpdateStomp.inputState = 2;
+            }
+          }
+        }
+      });
+    </script>
+    <script src="assets/js/keyboard.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  </script>
+</head>
+<body style="margin: 0; overflow: hidden;">
+  <div id="game"></div>
+</body>
+</html>
