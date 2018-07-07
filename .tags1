@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+active	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^    active: function() { game.time.events.add(Phaser.Timer.SECOND, function(){$/;"	function	line:7
+WebFontConfig.active	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^    active: function() { game.time.events.add(Phaser.Timer.SECOND, function(){$/;"	method	line:7
+WebFontConfig.google	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^    google: {$/;"	property	line:12
+menuState	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^var menuState = function(){};$/;"	function	line:17
+menuState	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^var menuState = function(){};$/;"	function	line:17
+menuState	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^menuState.prototype = {$/;"	class	line:19
+preload	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  preload: function(){$/;"	function	line:20
+menuState.preload	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  preload: function(){$/;"	method	line:20
+create	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  create: function(){$/;"	function	line:30
+menuState.create	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  create: function(){$/;"	method	line:30
+update	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  update: function(){$/;"	function	line:60
+menuState.update	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  update: function(){$/;"	method	line:60
+selectState	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^var selectState = function(){};$/;"	function	line:67
+selectState	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^var selectState = function(){};$/;"	function	line:67
+selectState	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^selectState.prototype = {$/;"	class	line:69
+preload	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  preload: function(){$/;"	function	line:70
+selectState.preload	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  preload: function(){$/;"	method	line:70
+run	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  run: function(){$/;"	function	line:81
+selectState.run	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  run: function(){$/;"	method	line:81
+selectState.updateSongSelect	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^    selectState.prototype.updateSongSelect();$/;"	method	line:118
+updateSongSelect	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  updateSongSelect: function(){$/;"	function	line:120
+selectState.updateSongSelect	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  updateSongSelect: function(){$/;"	method	line:120
+update	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  update: function(){$/;"	function	line:133
+selectState.update	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^  update: function(){$/;"	method	line:133
+selectState.updateSongSelect	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\public\assets\js\game.js	/^      selectState.prototype.updateSongSelect();$/;"	method	line:142

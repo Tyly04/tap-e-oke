@@ -1,7 +1,3 @@
-var SerialPort = require('serialport');
-var port = new SerialPort('COM4', {
-  baudRate: 115200
-});
 var express = require('express');
 var app = express();
 var server = require('http').Server(app);
@@ -38,8 +34,3 @@ function parseDat(data){
   }
   return null;
 }
-port.on('data', function(data){
-  //Reads each update as one piece of data.
-  var dat = data.toString('utf8');
-  io.emit("input", {input: parseDat(dat)});
-});
