@@ -43,6 +43,19 @@ menuState.prototype = {
       font: "Source Code Pro"
     })
     t.anchor.setTo(0.5);
+    game.cursorKeys = game.input.keyboard.createCursorKeys();
+    game.cursorKeys.down.onDown.add(function(){
+      UpdateStomp.inputState = 1;
+    });
+    game.cursorKeys.down.onUp.add(function(){
+      UpdateStomp.inputState = 0;
+    });
+    game.cursorKeys.left.onDown.add(function(){
+      UpdateStomp.inputState = 2;
+    });
+    game.cursorKeys.left.onUp.add(function(){
+      UpdateStomp.inputState = 0;
+    });
   },
   update: function(){
     if(UpdateStomp.inputState === 1){
