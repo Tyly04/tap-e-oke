@@ -10,7 +10,7 @@ WebFontConfig = {
 
     //  The Google Fonts we want to load (specify as many as you like in the array)
     google: {
-      families: ['Source Code Pro']
+      families: ['Inconsolata']
     }
 
 };
@@ -33,14 +33,14 @@ menuState.prototype = {
     title.text = game.add.text(0, 0, "Tap-e-oke", {
       fill: "#ffffff",
       fontSize: (game.width/game.height)*100,
-      font: "Source Code Pro"
+      font: "Inconsolata"
     });
     title.text.anchor.setTo(0.5);
     title.addChild(title.text);
     var t= game.add.text(game.width/2, game.height/2 + (game.height/4), "Stomp to start", {
       fill: "#ffffff",
       fontSize: (game.width/game.height) * 50,
-      font: "Source Code Pro"
+      font: "Inconsolata"
     })
     t.anchor.setTo(0.5);
     game.cursorKeys = game.input.keyboard.createCursorKeys();
@@ -85,11 +85,34 @@ selectState.prototype = {
     itemSelect.anchor.setTo(0.5);
     game.songs = game.add.group();
     music.forEach(function(item, index){
-      var sprite = game.add.sprite(150 + (index * 310), game.height/2, item.key);
-      sprite.anchor.setTo(0.5);
+      var sprite = game.add.sprite((index * 310), game.height/2 - (game.height/3 - 20)/2, item.key);
       var ratio = sprite.width/sprite.height;
       sprite.width = ratio * (game.height/3 - 20);
       sprite.height = game.height/3 - 20;
+      sprite.title = game.add.text(0, -100, item.title, {
+        fill: "#ffffff",
+        fontSize: sprite.width,
+        font: "Inconsolata",
+        wordWrap: true,
+        wordWrapWidth: sprite.width * 10,
+        align: 'center'
+      });
+      sprite.title.x = sprite.title.width/2;
+      sprite.title.y = -sprite.title.height/2;
+      sprite.title.anchor.setTo(0.5);
+      sprite.addChild(sprite.title);
+      sprite.info = game.add.text(0, sprite.height, item.info, {
+        fill: "#ffffff",
+        fontSize: sprite.width,
+        font: "Inconsolata",
+        wordWrap: true,
+        wordWrapWidth: sprite.width * 10,
+        align: 'center'
+      });
+      sprite.info.x = sprite.info.width/2;
+      sprite.info.y = window.innerHeight * 3;
+      sprite.info.anchor.setTo(0.5);
+      sprite.addChild(sprite.info);
       game.songs.add(sprite);
     });
     selectState.prototype.updateSongSelect();
@@ -98,8 +121,12 @@ selectState.prototype = {
     game.songs.children.forEach(function(sprite, index){
       if(index !== game.musicSelect){
         sprite.tint = 0x111111;
+        sprite.title.tint = 0x111111;
+        sprite.info.tint = 0x111111;
       } else if (index === game.musicSelect){
         sprite.tint = 0xffffff;
+        sprite.title.tint = 0xffffff;
+        sprite.info.tint = 0xffffff;
       }
     });
   },

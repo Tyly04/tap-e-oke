@@ -1,0 +1,782 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'serialport' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\package.json
+5 warn package.json shoeband@1.0.0 No repository field.
+6 warn package.json shoeband@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\accepts\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\after\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bgblack\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bgblue\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bgcyan\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bggreen\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bgmagenta\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bgred\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bgwhite\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bgyellow\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-black\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-blue\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-bold\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-colors\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-cyan\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-dim\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-gray\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-green\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-grey\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-hidden\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-inverse\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-italic\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-magenta\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-red\package.json
+31 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-regex\package.json
+32 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-reset\package.json
+33 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-strikethrough\package.json
+34 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-underline\package.json
+35 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-white\package.json
+36 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-wrap\package.json
+37 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ansi-yellow\package.json
+38 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\aproba\package.json
+39 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\are-we-there-yet\package.json
+40 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\arr-flatten\package.json
+41 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\arr-swap\package.json
+42 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\array-flatten\package.json
+43 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\arraybuffer.slice\package.json
+44 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\async-limiter\package.json
+45 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\backo2\package.json
+46 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\base64-arraybuffer\package.json
+47 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\base64id\package.json
+48 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\better-assert\package.json
+49 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\bindings\package.json
+50 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\bl\package.json
+51 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\blob\package.json
+52 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\body-parser\package.json
+53 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\buffer-alloc\package.json
+54 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\buffer-alloc-unsafe\package.json
+55 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\buffer-fill\package.json
+56 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\bytes\package.json
+57 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\callsite\package.json
+58 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\choices-separator\package.json
+59 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\chownr\package.json
+60 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\clone-deep\package.json
+61 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\code-point-at\package.json
+62 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\collection-visit\package.json
+63 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\commander\package.json
+64 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\component-bind\package.json
+65 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\component-emitter\package.json
+66 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\component-inherit\package.json
+67 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\console-control-strings\package.json
+68 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\content-disposition\package.json
+69 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\content-type\package.json
+70 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\cookie\package.json
+71 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\cookie-signature\package.json
+72 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\copy-descriptor\package.json
+73 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\core-util-is\package.json
+74 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\debug\package.json
+75 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\decompress-response\package.json
+76 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\deep-extend\package.json
+77 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\define-property\package.json
+78 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\delegates\package.json
+79 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\depd\package.json
+80 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\destroy\package.json
+81 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\detect-libc\package.json
+82 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ee-first\package.json
+83 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\encodeurl\package.json
+84 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\end-of-stream\package.json
+85 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\engine.io\package.json
+86 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\engine.io-client\package.json
+87 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\engine.io-parser\package.json
+88 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\error-symbol\package.json
+89 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\escape-html\package.json
+90 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\etag\package.json
+91 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\expand-template\package.json
+92 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\express\package.json
+93 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\extend-shallow\package.json
+94 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\finalhandler\package.json
+95 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\for-in\package.json
+96 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\for-own\package.json
+97 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\forwarded\package.json
+98 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\fresh\package.json
+99 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\fs-constants\package.json
+100 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\gauge\package.json
+101 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\github-from-package\package.json
+102 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\has-binary2\package.json
+103 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\has-cors\package.json
+104 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\has-unicode\package.json
+105 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\http-errors\package.json
+106 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\iconv-lite\package.json
+107 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\indexof\package.json
+108 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\info-symbol\package.json
+109 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\inherits\package.json
+110 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ini\package.json
+111 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ipaddr.js\package.json
+112 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-accessor-descriptor\package.json
+113 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-buffer\package.json
+114 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-data-descriptor\package.json
+115 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-descriptor\package.json
+116 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-extendable\package.json
+117 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-fullwidth-code-point\package.json
+118 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-number\package.json
+119 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-plain-object\package.json
+120 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\is-windows\package.json
+121 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\isarray\package.json
+122 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\isobject\package.json
+123 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\kind-of\package.json
+124 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\koalas\package.json
+125 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\lazy-cache\package.json
+126 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\log-ok\package.json
+127 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\log-utils\package.json
+128 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\map-visit\package.json
+129 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\media-typer\package.json
+130 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\merge-descriptors\package.json
+131 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\methods\package.json
+132 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\mime\package.json
+133 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\mime-db\package.json
+134 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\mime-types\package.json
+135 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\mimic-response\package.json
+136 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\minimist\package.json
+137 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\mixin-object\package.json
+138 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\mkdirp\package.json
+139 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ms\package.json
+140 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\mute-stream\package.json
+141 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\nan\package.json
+142 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\negotiator\package.json
+143 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\node-abi\package.json
+144 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\noop-logger\package.json
+145 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\npmlog\package.json
+146 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\number-is-nan\package.json
+147 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\object-assign\package.json
+148 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\object-component\package.json
+149 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\object-copy\package.json
+150 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\object-visit\package.json
+151 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\on-finished\package.json
+152 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\once\package.json
+153 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\os-homedir\package.json
+154 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\parseqs\package.json
+155 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\parseuri\package.json
+156 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\parseurl\package.json
+157 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\path-to-regexp\package.json
+158 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\pointer-symbol\package.json
+159 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\prebuild-install\package.json
+160 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\process-nextick-args\package.json
+161 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\promirepl\package.json
+162 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\prompt-actions\package.json
+163 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\prompt-base\package.json
+164 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\prompt-checkbox\package.json
+165 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\prompt-choices\package.json
+166 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\prompt-list\package.json
+167 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\prompt-question\package.json
+168 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\prompt-radio\package.json
+169 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\proxy-addr\package.json
+170 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\pump\package.json
+171 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\qs\package.json
+172 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\radio-symbol\package.json
+173 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\range-parser\package.json
+174 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\raw-body\package.json
+175 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\rc\package.json
+176 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\readable-stream\package.json
+177 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\readline-ui\package.json
+178 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\readline-utils\package.json
+179 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\safe-buffer\package.json
+180 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\semver\package.json
+181 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\send\package.json
+182 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serve-static\package.json
+183 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\set-blocking\package.json
+184 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\set-getter\package.json
+185 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\set-value\package.json
+186 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\setprototypeof\package.json
+187 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\shallow-clone\package.json
+188 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\signal-exit\package.json
+189 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\simple-concat\package.json
+190 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\simple-get\package.json
+191 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\socket.io\package.json
+192 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\socket.io-adapter\package.json
+193 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\socket.io-client\package.json
+194 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\socket.io-parser\package.json
+195 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\static-extend\package.json
+196 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\statuses\package.json
+197 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\string-width\package.json
+198 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\string_decoder\package.json
+199 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\strip-ansi\package.json
+200 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\strip-color\package.json
+201 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\strip-json-comments\package.json
+202 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\success-symbol\package.json
+203 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\tar-fs\package.json
+204 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\tar-stream\package.json
+205 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\terminal-paginator\package.json
+206 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\time-stamp\package.json
+207 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\to-array\package.json
+208 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\to-buffer\package.json
+209 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\to-object-path\package.json
+210 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\toggle-array\package.json
+211 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\tunnel-agent\package.json
+212 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\type-is\package.json
+213 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ultron\package.json
+214 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\unpipe\package.json
+215 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\util-deprecate\package.json
+216 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\utils-merge\package.json
+217 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\vary\package.json
+218 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\warning-symbol\package.json
+219 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\which-pm-runs\package.json
+220 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\wide-align\package.json
+221 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\window-size\package.json
+222 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\wrappy\package.json
+223 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\ws\package.json
+224 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\xmlhttprequest-ssl\package.json
+225 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\xtend\package.json
+226 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\yeast\package.json
+227 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\@serialport\parser-byte-length\package.json
+228 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\@serialport\parser-cctalk\package.json
+229 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\@serialport\parser-delimiter\package.json
+230 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\@serialport\parser-readline\package.json
+231 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\@serialport\parser-ready\package.json
+232 verbose installManyTop reading scoped package data from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\@serialport\parser-regex\package.json
+233 info package.json copy-descriptor@0.1.1 No README data
+234 info package.json log-ok@0.1.1 No README data
+235 info package.json log-utils@0.2.1 No README data
+236 info package.json object-copy@0.1.0 No README data
+237 info package.json static-extend@0.1.2 No README data
+238 info package.json ansi-wrap@0.1.0 license should be a valid SPDX license expression
+239 info package.json base64-arraybuffer@0.1.5 No license field.
+240 info package.json better-assert@1.0.2 No license field.
+241 info package.json blob@0.0.4 No license field.
+242 info package.json callsite@1.0.0 No repository field.
+243 info package.json callsite@1.0.0 No license field.
+244 info package.json component-bind@1.0.0 No license field.
+245 info package.json component-inherit@0.0.3 No license field.
+246 info package.json has-binary2@1.0.3 No repository field.
+247 info package.json indexof@0.0.1 No repository field.
+248 info package.json indexof@0.0.1 No license field.
+249 info package.json object-component@0.0.3 No repository field.
+250 info package.json object-component@0.0.3 No license field.
+251 info package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+252 info package.json to-array@0.1.4 No license field.
+253 info package.json xmlhttprequest-ssl@1.5.5 No license field.
+254 verbose readDependencies loading dependencies from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\package.json
+255 silly cache add args [ 'serialport@^6.2.1', null ]
+256 verbose cache add spec serialport@^6.2.1
+257 silly cache add parsed spec Result {
+257 silly cache add   raw: 'serialport@^6.2.1',
+257 silly cache add   scope: null,
+257 silly cache add   name: 'serialport',
+257 silly cache add   rawSpec: '^6.2.1',
+257 silly cache add   spec: '>=6.2.1 <7.0.0',
+257 silly cache add   type: 'range' }
+258 silly addNamed serialport@>=6.2.1 <7.0.0
+259 verbose addNamed ">=6.2.1 <7.0.0" is a valid semver range for serialport
+260 silly addNameRange { name: 'serialport', range: '>=6.2.1 <7.0.0', hasData: false }
+261 silly mapToRegistry name serialport
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry data Result {
+264 silly mapToRegistry   raw: 'serialport',
+264 silly mapToRegistry   scope: null,
+264 silly mapToRegistry   name: 'serialport',
+264 silly mapToRegistry   rawSpec: '',
+264 silly mapToRegistry   spec: 'latest',
+264 silly mapToRegistry   type: 'tag' }
+265 silly mapToRegistry uri https://registry.npmjs.org/serialport
+266 verbose addNameRange registry:https://registry.npmjs.org/serialport not in flight; fetching
+267 verbose request uri https://registry.npmjs.org/serialport
+268 verbose request no auth needed
+269 info attempt registry request try #1 at 11:22:14 PM
+270 verbose request id 5d5857b97b3ea18e
+271 verbose etag W/"f136a46d67a1e5b9d3a145d6bb8b4641"
+272 verbose lastModified Sat, 30 Jun 2018 04:18:19 GMT
+273 http request GET https://registry.npmjs.org/serialport
+274 http 304 https://registry.npmjs.org/serialport
+275 verbose headers { date: 'Sat, 07 Jul 2018 06:22:12 GMT',
+275 verbose headers   connection: 'keep-alive',
+275 verbose headers   'set-cookie': [ '__cfduid=d18cd5172d6a65299e569a802cf7192c31530944532; expires=Sun, 07-Jul-19 06:22:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+275 verbose headers   'cache-control': 'max-age=300',
+275 verbose headers   'cf-cache-status': 'HIT',
+275 verbose headers   'cf-ray': '436837211b396d42-SJC',
+275 verbose headers   etag: '"f136a46d67a1e5b9d3a145d6bb8b4641"',
+275 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+275 verbose headers   'last-modified': 'Sat, 30 Jun 2018 04:18:19 GMT',
+275 verbose headers   vary: 'accept-encoding, accept',
+275 verbose headers   server: 'cloudflare' }
+276 silly get cb [ 304,
+276 silly get   { date: 'Sat, 07 Jul 2018 06:22:12 GMT',
+276 silly get     connection: 'keep-alive',
+276 silly get     'set-cookie': [ '__cfduid=d18cd5172d6a65299e569a802cf7192c31530944532; expires=Sun, 07-Jul-19 06:22:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+276 silly get     'cache-control': 'max-age=300',
+276 silly get     'cf-cache-status': 'HIT',
+276 silly get     'cf-ray': '436837211b396d42-SJC',
+276 silly get     etag: '"f136a46d67a1e5b9d3a145d6bb8b4641"',
+276 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+276 silly get     'last-modified': 'Sat, 30 Jun 2018 04:18:19 GMT',
+276 silly get     vary: 'accept-encoding, accept',
+276 silly get     server: 'cloudflare' } ]
+277 verbose etag https://registry.npmjs.org/serialport from cache
+278 verbose get saving serialport to C:\Users\tyly0\AppData\Roaming\npm-cache\registry.npmjs.org\serialport\.cache.json
+279 verbose correctMkdir C:\Users\tyly0\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+280 silly addNameRange number 2 { name: 'serialport', range: '>=6.2.1 <7.0.0', hasData: true }
+281 silly addNameRange versions [ 'serialport',
+281 silly addNameRange   [ '0.1.0',
+281 silly addNameRange     '0.1.1',
+281 silly addNameRange     '0.1.3',
+281 silly addNameRange     '0.2.0',
+281 silly addNameRange     '0.2.2',
+281 silly addNameRange     '0.2.3',
+281 silly addNameRange     '0.2.4',
+281 silly addNameRange     '0.2.5',
+281 silly addNameRange     '0.2.6',
+281 silly addNameRange     '0.2.7',
+281 silly addNameRange     '0.2.8',
+281 silly addNameRange     '0.2.9',
+281 silly addNameRange     '0.3.0',
+281 silly addNameRange     '0.6.0',
+281 silly addNameRange     '0.6.1',
+281 silly addNameRange     '0.6.2',
+281 silly addNameRange     '0.6.3',
+281 silly addNameRange     '0.6.5',
+281 silly addNameRange     '0.6.6',
+281 silly addNameRange     '0.6.7',
+281 silly addNameRange     '0.7.0',
+281 silly addNameRange     '0.7.1',
+281 silly addNameRange     '0.7.2',
+281 silly addNameRange     '0.7.3',
+281 silly addNameRange     '0.7.4',
+281 silly addNameRange     '0.7.5',
+281 silly addNameRange     '1.0.0',
+281 silly addNameRange     '1.0.1',
+281 silly addNameRange     '1.0.2',
+281 silly addNameRange     '1.0.3',
+281 silly addNameRange     '1.0.4',
+281 silly addNameRange     '1.0.5',
+281 silly addNameRange     '1.0.6',
+281 silly addNameRange     '1.0.7',
+281 silly addNameRange     '1.0.8',
+281 silly addNameRange     '1.1.0',
+281 silly addNameRange     '1.1.1',
+281 silly addNameRange     '1.1.3',
+281 silly addNameRange     '1.2.0',
+281 silly addNameRange     '1.2.1',
+281 silly addNameRange     '1.2.2',
+281 silly addNameRange     '1.2.3',
+281 silly addNameRange     '1.2.4',
+281 silly addNameRange     '1.2.5',
+281 silly addNameRange     '1.3.0',
+281 silly addNameRange     '1.3.1',
+281 silly addNameRange     '1.4.0',
+281 silly addNameRange     '1.4.1',
+281 silly addNameRange     '1.4.2',
+281 silly addNameRange     '1.4.5',
+281 silly addNameRange     '1.4.6',
+281 silly addNameRange     '1.4.8',
+281 silly addNameRange     '1.4.9',
+281 silly addNameRange     '1.4.10',
+281 silly addNameRange     '1.5.0',
+281 silly addNameRange     '1.6.1',
+281 silly addNameRange     '1.6.2',
+281 silly addNameRange     '1.6.3',
+281 silly addNameRange     '1.7.0',
+281 silly addNameRange     '1.7.1',
+281 silly addNameRange     '1.7.3',
+281 silly addNameRange     '1.7.4',
+281 silly addNameRange     '2.0.0',
+281 silly addNameRange     '2.0.1',
+281 silly addNameRange     '2.0.2',
+281 silly addNameRange     '2.0.3',
+281 silly addNameRange     '2.0.4',
+281 silly addNameRange     '2.0.5',
+281 silly addNameRange     '2.0.6',
+281 silly addNameRange     '2.0.7-beta1',
+281 silly addNameRange     '2.0.7-beta2',
+281 silly addNameRange     '2.0.7-beta3',
+281 silly addNameRange     '2.0.7-beta4',
+281 silly addNameRange     '2.0.7-beta5',
+281 silly addNameRange     '2.1.0',
+281 silly addNameRange     '2.1.1',
+281 silly addNameRange     '2.1.2',
+281 silly addNameRange     '3.0.0',
+281 silly addNameRange     '3.0.1',
+281 silly addNameRange     '3.1.0',
+281 silly addNameRange     '3.1.1',
+281 silly addNameRange     '3.1.2-beta1',
+281 silly addNameRange     '3.1.2-beta2',
+281 silly addNameRange     '3.1.2-beta3',
+281 silly addNameRange     '3.1.2-beta5',
+281 silly addNameRange     '3.1.2-beta6',
+281 silly addNameRange     '3.1.2-beta7',
+281 silly addNameRange     '3.1.2',
+281 silly addNameRange     '3.2.0-beta1',
+281 silly addNameRange     '4.0.0-beta1',
+281 silly addNameRange     '4.0.0-beta2',
+281 silly addNameRange     '4.0.0-beta3',
+281 silly addNameRange     '4.0.0-beta4',
+281 silly addNameRange     '4.0.0-rc1',
+281 silly addNameRange     '4.0.0',
+281 silly addNameRange     '4.0.1',
+281 silly addNameRange     '5.0.0-beta1',
+281 silly addNameRange     '4.0.2',
+281 silly addNameRange     '4.0.3',
+281 silly addNameRange     '5.0.0-beta2',
+281 silly addNameRange     '4.0.4',
+281 silly addNameRange     '4.0.5',
+281 silly addNameRange     '4.0.6',
+281 silly addNameRange     '4.0.7-beta1',
+281 silly addNameRange     '4.0.7-beta3',
+281 silly addNameRange     '4.0.7-beta4',
+281 silly addNameRange     '4.0.7',
+281 silly addNameRange     '5.0.0-beta3',
+281 silly addNameRange     '5.0.0-beta4',
+281 silly addNameRange     '5.0.0-beta5',
+281 silly addNameRange     '5.0.0-beta6',
+281 silly addNameRange     '5.0.0-beta7',
+281 silly addNameRange     '5.0.0-beta8',
+281 silly addNameRange     '5.0.0-beta9',
+281 silly addNameRange     '5.0.0',
+281 silly addNameRange     '5.1.0-beta5',
+281 silly addNameRange     '6.0.0-beta1',
+281 silly addNameRange     '6.0.0-beta2',
+281 silly addNameRange     '6.0.0-beta3',
+281 silly addNameRange     '6.0.0',
+281 silly addNameRange     '6.0.1',
+281 silly addNameRange     '6.0.3',
+281 silly addNameRange     '6.0.4',
+281 silly addNameRange     '6.0.5',
+281 silly addNameRange     '6.1.0',
+281 silly addNameRange     '6.1.1',
+281 silly addNameRange     '6.2.0',
+281 silly addNameRange     '6.2.1' ] ]
+282 silly addNamed serialport@6.2.1
+283 verbose addNamed "6.2.1" is a plain semver version for serialport
+284 silly cache afterAdd serialport@6.2.1
+285 verbose afterAdd C:\Users\tyly0\AppData\Roaming\npm-cache\serialport\6.2.1\package\package.json not in flight; writing
+286 verbose correctMkdir C:\Users\tyly0\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+287 verbose afterAdd C:\Users\tyly0\AppData\Roaming\npm-cache\serialport\6.2.1\package\package.json written
+288 silly install resolved [ { name: 'serialport',
+288 silly install resolved     version: '6.2.1',
+288 silly install resolved     description: 'Node.js package to access serial ports. Linux, OSX and Windows. Welcome your robotic JavaScript overlords. Better yet, program them!',
+288 silly install resolved     main: 'lib',
+288 silly install resolved     repository:
+288 silly install resolved      { type: 'git',
+288 silly install resolved        url: 'git://github.com/node-serialport/node-serialport.git' },
+288 silly install resolved     keywords:
+288 silly install resolved      [ 'ccTalk',
+288 silly install resolved        'com port',
+288 silly install resolved        'data logging',
+288 silly install resolved        'hardware',
+288 silly install resolved        'iot',
+288 silly install resolved        'johnny-five',
+288 silly install resolved        'modem',
+288 silly install resolved        'nodebots',
+288 silly install resolved        'RFID',
+288 silly install resolved        'sensor',
+288 silly install resolved        'serial port',
+288 silly install resolved        'serial',
+288 silly install resolved        'serialport',
+288 silly install resolved        'sms gateway',
+288 silly install resolved        'sms',
+288 silly install resolved        'stream',
+288 silly install resolved        'tty',
+288 silly install resolved        'UART' ],
+288 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+288 silly install resolved     dependencies:
+288 silly install resolved      { '@serialport/parser-byte-length': '^1.0.5',
+288 silly install resolved        '@serialport/parser-cctalk': '^1.0.5',
+288 silly install resolved        '@serialport/parser-delimiter': '^1.0.5',
+288 silly install resolved        '@serialport/parser-readline': '^1.0.5',
+288 silly install resolved        '@serialport/parser-ready': '^1.0.5',
+288 silly install resolved        '@serialport/parser-regex': '^1.0.5',
+288 silly install resolved        bindings: '1.3.0',
+288 silly install resolved        commander: '^2.13.0',
+288 silly install resolved        debug: '^3.1.0',
+288 silly install resolved        nan: '^2.9.2',
+288 silly install resolved        'prebuild-install': '^4.0.0',
+288 silly install resolved        promirepl: '^1.0.1',
+288 silly install resolved        'prompt-list': '^3.2.0',
+288 silly install resolved        'safe-buffer': '^5.1.2' },
+288 silly install resolved     devDependencies:
+288 silly install resolved      { '@reconbot/jsdoc-theme': '^1.0.0',
+288 silly install resolved        bluebird: '^3.5.0',
+288 silly install resolved        cc: '^1.0.1',
+288 silly install resolved        chai: '^4.0.2',
+288 silly install resolved        'chai-subset': '^1.5.0',
+288 silly install resolved        'conventional-changelog-cli': '^2.0.0',
+288 silly install resolved        eslint: '^5.0.0',
+288 silly install resolved        'eslint-plugin-import': '^2.13.0',
+288 silly install resolved        'eslint-plugin-node': '^6.0.1',
+288 silly install resolved        'eslint-plugin-promise': '^3.8.0',
+288 silly install resolved        istanbul: '^0.4.4',
+288 silly install resolved        jsdoc: '^3.5.5',
+288 silly install resolved        mocha: '^5.2.0',
+288 silly install resolved        prebuild: '^7.6.0',
+288 silly install resolved        'prebuild-ci': '^2.2.3',
+288 silly install resolved        proxyquire: '^2.0.0',
+288 silly install resolved        sinon: '^6.0.1' },
+288 silly install resolved     engines: { node: '>=4.0.0' },
+288 silly install resolved     bin:
+288 silly install resolved      { 'serialport-list': './bin/list.js',
+288 silly install resolved        'serialport-repl': './bin/repl.js',
+288 silly install resolved        'serialport-term': './bin/terminal.js' },
+288 silly install resolved     license: 'MIT',
+288 silly install resolved     scripts:
+288 silly install resolved      { 'arduino-test': 'TEST_PORT=$(./bin/find-arduino.js) npm test',
+288 silly install resolved        changelog: 'conventional-changelog -i CHANGELOG.md -s',
+288 silly install resolved        docs: 'jsdoc -c ./.jsdoc.json ',
+288 silly install resolved        lint: 'eslint lib test bin examples && cc',
+288 silly install resolved        'rebuild-all': 'npm rebuild && node-gyp rebuild',
+288 silly install resolved        repl: 'node bin/repl.js',
+288 silly install resolved        terminal: 'node bin/terminal.js',
+288 silly install resolved        stress: 'mocha --no-timeouts test/arduinoTest/stress.js',
+288 silly install resolved        test: 'istanbul cover ./node_modules/mocha/bin/_mocha',
+288 silly install resolved        'test:watch': 'mocha -w',
+288 silly install resolved        valgrind: 'TEST_PORT=$(./bin/find-arduino.js) valgrind --leak-check=full node test/manual-testing/memory-binding.js',
+288 silly install resolved        debugger: 'TEST_PORT=$(./bin/find-arduino.js) node --inspect --debug-brk test/manual-testing/performance.js',
+288 silly install resolved        install: 'prebuild-install || node-gyp rebuild',
+288 silly install resolved        rebuild: 'prebuild --compile',
+288 silly install resolved        prebuild: 'prebuild --all --strip --verbose',
+288 silly install resolved        'prebuild-ci': 'prebuild-ci' },
+288 silly install resolved     gypfile: true,
+288 silly install resolved     cc: { filter: [Object], files: [Object], linelength: '120' },
+288 silly install resolved     gitHead: '9ee036c4cb5a194f6c23e94e53525c0d91147c37',
+288 silly install resolved     bugs: { url: 'https://github.com/node-serialport/node-serialport/issues' },
+288 silly install resolved     homepage: 'https://github.com/node-serialport/node-serialport#readme',
+288 silly install resolved     _id: 'serialport@6.2.1',
+288 silly install resolved     _npmVersion: '6.1.0',
+288 silly install resolved     _nodeVersion: '8.10.0',
+288 silly install resolved     _npmUser: { name: 'reconbot', email: 'wizard@roborooter.com' },
+288 silly install resolved     dist:
+288 silly install resolved      { integrity: 'sha512-Z5irknsC8wJd/r6wR+oG3OJZAhMMcLiF817RrHMlC+3yKmAh0E0WuF0Gh4UfGYYcsXPcgdDcYkmMpQ56gB9pww==',
+288 silly install resolved        shasum: '19add3f70d704c8a6c0707dc5b1bdd1ec31b9852',
+288 silly install resolved        tarball: 'https://registry.npmjs.org/serialport/-/serialport-6.2.1.tgz',
+288 silly install resolved        fileCount: 47,
+288 silly install resolved        unpackedSize: 324008,
+288 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbNwSHCRA9TVsSAnZWagAAvuAP/0iGFs4L6ceLxSOabbbs\nKJbBndTOTyqlcueJ3z90mck5+ijprdQ1ldvhx7QRb0NiHUSK/fG6PIw8sDH3\nLHLLabKHIB6UWdTpLI4tUtBouo1zWqfvKSMeh9SnNYCu7Kbl/90H6eMaBbpo\n2d3DfCjoORwLsiAYbytAC5Ne4Nb8p2ELYYWLFv2j+j+LZjJd7Pcy+R1bQ5MX\n7wRgjOHXps2B+6R/GCyaRMGV4Lg/KOnSwYMYj3P8Pv2T1EwzOyPlcdVak0ss\n9sSduW27xFtMkPxUotAt7SaisuWMbrxH4/viF13QtDYmUrjr7XEhoyFpF8Bc\nPa30eYqtuHvvvnJKKocX0iOzAiYRqTDA3GoDu8e9Pv0crMd5/mrtRpGWPGp0\nkSZWY2uc5MtQKq3F7dbedYDeBNU+MQF/HvcdhZNFwqbaUWrwy2o3h1P12YGN\n/XzyGCQJxh+HPw8GULdlzdBMvm0o0h8u/3I1VFBNkMLOZVDPJXYa5iU1pcO6\nKLZ8xOO03Vto4Kx/OAMnnXOB3Xy5H7Fyhfru0cCLMqtPLjrDR0ZT0ONqZIXP\n/VelGfFE6XoMyCekDumxZHkZcd7/u2bpt4JHbXFsX1znTQAH5NeKLpcCa/Vu\nilqieXA7RzaM2f9voYxj8zEbAkcdR/QCHdFkX4AdXbZ6VRRiq2z3OkW0LAGt\n84QI\r\n=KYQK\r\n-----END PGP SIGNATURE-----\r\n' },
+288 silly install resolved     directories: {},
+288 silly install resolved     _npmOperationalInternal:
+288 silly install resolved      { host: 's3://npm-registry-packages',
+288 silly install resolved        tmp: 'tmp/serialport_6.2.1_1530332295135_0.3714349660481817' },
+288 silly install resolved     _shasum: '19add3f70d704c8a6c0707dc5b1bdd1ec31b9852',
+288 silly install resolved     _resolved: 'https://registry.npmjs.org/serialport/-/serialport-6.2.1.tgz',
+288 silly install resolved     _from: 'serialport@>=6.2.1 <7.0.0',
+288 silly install resolved     readme: 'ERROR: No README data found!' } ]
+289 info install serialport@6.2.1 into C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+290 info installOne serialport@6.2.1
+291 verbose installOne of serialport to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke not in flight; installing
+292 verbose correctMkdir C:\Users\tyly0\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+293 verbose lock using C:\Users\tyly0\AppData\Roaming\npm-cache\_locks\serialport-7cd5a8a48420ba10.lock for C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+294 silly install write writing serialport 6.2.1 to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+295 verbose unbuild node_modules\serialport
+296 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport is being purged from base C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+297 verbose gentlyRm don't care about contents; nuking C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+298 verbose tar unpack C:\Users\tyly0\AppData\Roaming\npm-cache\serialport\6.2.1\package.tgz
+299 verbose tar unpacking to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+300 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport is being purged
+301 verbose gentlyRm don't care about contents; nuking C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+302 silly gunzTarPerm modes [ '777', '666' ]
+303 silly gunzTarPerm extractEntry package.json
+304 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+305 silly gunzTarPerm extractEntry .jsdoc.json
+306 silly gunzTarPerm modified mode [ '.jsdoc.json', 420, 438 ]
+307 silly gunzTarPerm extractEntry binding.gyp
+308 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+309 silly gunzTarPerm extractEntry CHANGELOG.md
+310 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+311 silly gunzTarPerm extractEntry codecov.yml
+312 silly gunzTarPerm modified mode [ 'codecov.yml', 420, 438 ]
+313 silly gunzTarPerm extractEntry LICENSE
+314 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+315 silly gunzTarPerm extractEntry README.md
+316 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+317 silly gunzTarPerm extractEntry test.js
+318 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+319 silly gunzTarPerm extractEntry bin/echo.js
+320 silly gunzTarPerm modified mode [ 'bin/echo.js', 493, 511 ]
+321 silly gunzTarPerm extractEntry bin/find-arduino.js
+322 silly gunzTarPerm modified mode [ 'bin/find-arduino.js', 493, 511 ]
+323 silly gunzTarPerm extractEntry bin/list.js
+324 silly gunzTarPerm modified mode [ 'bin/list.js', 493, 511 ]
+325 silly gunzTarPerm extractEntry bin/repl.js
+326 silly gunzTarPerm modified mode [ 'bin/repl.js', 493, 511 ]
+327 silly gunzTarPerm extractEntry bin/terminal.js
+328 silly gunzTarPerm modified mode [ 'bin/terminal.js', 493, 511 ]
+329 silly gunzTarPerm extractEntry bin/write-a-lot.js
+330 silly gunzTarPerm modified mode [ 'bin/write-a-lot.js', 493, 511 ]
+331 silly gunzTarPerm extractEntry lib/bindings/auto-detect.js
+332 silly gunzTarPerm modified mode [ 'lib/bindings/auto-detect.js', 420, 438 ]
+333 silly gunzTarPerm extractEntry lib/bindings/base.js
+334 silly gunzTarPerm modified mode [ 'lib/bindings/base.js', 420, 438 ]
+335 silly gunzTarPerm extractEntry lib/bindings/darwin.js
+336 silly gunzTarPerm modified mode [ 'lib/bindings/darwin.js', 420, 438 ]
+337 silly gunzTarPerm extractEntry lib/bindings/linux-list.js
+338 silly gunzTarPerm modified mode [ 'lib/bindings/linux-list.js', 420, 438 ]
+339 silly gunzTarPerm extractEntry lib/bindings/linux.js
+340 silly gunzTarPerm modified mode [ 'lib/bindings/linux.js', 420, 438 ]
+341 silly gunzTarPerm extractEntry lib/bindings/mock.js
+342 silly gunzTarPerm modified mode [ 'lib/bindings/mock.js', 420, 438 ]
+343 silly gunzTarPerm extractEntry lib/bindings/poller.js
+344 silly gunzTarPerm modified mode [ 'lib/bindings/poller.js', 420, 438 ]
+345 silly gunzTarPerm extractEntry lib/bindings/unix-read.js
+346 silly gunzTarPerm modified mode [ 'lib/bindings/unix-read.js', 420, 438 ]
+347 silly gunzTarPerm extractEntry lib/bindings/unix-write.js
+348 silly gunzTarPerm modified mode [ 'lib/bindings/unix-write.js', 420, 438 ]
+349 silly gunzTarPerm extractEntry lib/bindings/win32-sn-parser.js
+350 silly gunzTarPerm modified mode [ 'lib/bindings/win32-sn-parser.js', 420, 438 ]
+351 silly gunzTarPerm extractEntry lib/bindings/win32.js
+352 silly gunzTarPerm modified mode [ 'lib/bindings/win32.js', 420, 438 ]
+353 silly gunzTarPerm extractEntry lib/index.js
+354 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+355 silly gunzTarPerm extractEntry lib/parsers.js
+356 silly gunzTarPerm modified mode [ 'lib/parsers.js', 420, 438 ]
+357 silly gunzTarPerm extractEntry lib/serialport.js
+358 silly gunzTarPerm modified mode [ 'lib/serialport.js', 420, 438 ]
+359 silly gunzTarPerm extractEntry lib/util.js
+360 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+361 silly gunzTarPerm extractEntry prebuilds/serialport-v6.2.1-node-v46-darwin-x64.tar.gz
+362 silly gunzTarPerm modified mode [ 'prebuilds/serialport-v6.2.1-node-v46-darwin-x64.tar.gz',
+362 silly gunzTarPerm   420,
+362 silly gunzTarPerm   438 ]
+363 silly gunzTarPerm extractEntry prebuilds/serialport-v6.2.1-node-v47-darwin-x64.tar.gz
+364 silly gunzTarPerm modified mode [ 'prebuilds/serialport-v6.2.1-node-v47-darwin-x64.tar.gz',
+364 silly gunzTarPerm   420,
+364 silly gunzTarPerm   438 ]
+365 silly gunzTarPerm extractEntry prebuilds/serialport-v6.2.1-node-v48-darwin-x64.tar.gz
+366 silly gunzTarPerm modified mode [ 'prebuilds/serialport-v6.2.1-node-v48-darwin-x64.tar.gz',
+366 silly gunzTarPerm   420,
+366 silly gunzTarPerm   438 ]
+367 silly gunzTarPerm extractEntry prebuilds/serialport-v6.2.1-node-v51-darwin-x64.tar.gz
+368 silly gunzTarPerm modified mode [ 'prebuilds/serialport-v6.2.1-node-v51-darwin-x64.tar.gz',
+368 silly gunzTarPerm   420,
+368 silly gunzTarPerm   438 ]
+369 silly gunzTarPerm extractEntry prebuilds/serialport-v6.2.1-node-v57-darwin-x64.tar.gz
+370 silly gunzTarPerm modified mode [ 'prebuilds/serialport-v6.2.1-node-v57-darwin-x64.tar.gz',
+370 silly gunzTarPerm   420,
+370 silly gunzTarPerm   438 ]
+371 silly gunzTarPerm extractEntry prebuilds/serialport-v6.2.1-node-v59-darwin-x64.tar.gz
+372 silly gunzTarPerm modified mode [ 'prebuilds/serialport-v6.2.1-node-v59-darwin-x64.tar.gz',
+372 silly gunzTarPerm   420,
+372 silly gunzTarPerm   438 ]
+373 silly gunzTarPerm extractEntry src/darwin_list.cpp
+374 silly gunzTarPerm modified mode [ 'src/darwin_list.cpp', 420, 438 ]
+375 silly gunzTarPerm extractEntry src/darwin_list.h
+376 silly gunzTarPerm modified mode [ 'src/darwin_list.h', 420, 438 ]
+377 silly gunzTarPerm extractEntry src/poller.cpp
+378 silly gunzTarPerm modified mode [ 'src/poller.cpp', 420, 438 ]
+379 silly gunzTarPerm extractEntry src/poller.h
+380 silly gunzTarPerm modified mode [ 'src/poller.h', 420, 438 ]
+381 silly gunzTarPerm extractEntry src/serialport_linux.cpp
+382 silly gunzTarPerm modified mode [ 'src/serialport_linux.cpp', 493, 511 ]
+383 silly gunzTarPerm extractEntry src/serialport_linux.h
+384 silly gunzTarPerm modified mode [ 'src/serialport_linux.h', 493, 511 ]
+385 silly gunzTarPerm extractEntry src/serialport_unix.cpp
+386 silly gunzTarPerm modified mode [ 'src/serialport_unix.cpp', 420, 438 ]
+387 silly gunzTarPerm extractEntry src/serialport_unix.h
+388 silly gunzTarPerm modified mode [ 'src/serialport_unix.h', 420, 438 ]
+389 silly gunzTarPerm extractEntry src/serialport_win.cpp
+390 silly gunzTarPerm modified mode [ 'src/serialport_win.cpp', 420, 438 ]
+391 silly gunzTarPerm extractEntry src/serialport_win.h
+392 silly gunzTarPerm modified mode [ 'src/serialport_win.h', 420, 438 ]
+393 silly gunzTarPerm extractEntry src/serialport.cpp
+394 silly gunzTarPerm modified mode [ 'src/serialport.cpp', 420, 438 ]
+395 silly gunzTarPerm extractEntry src/serialport.h
+396 silly gunzTarPerm modified mode [ 'src/serialport.h', 420, 438 ]
+397 verbose write writing to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport\package.json
+398 info preinstall serialport@6.2.1
+399 verbose readDependencies loading dependencies from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport\package.json
+400 verbose readDependencies loading dependencies from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport\package.json
+401 silly install resolved []
+402 verbose about to build C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+403 info build C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+404 info linkStuff serialport@6.2.1
+405 silly linkStuff serialport@6.2.1 has C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules as its parent node_modules
+406 verbose linkBins serialport@6.2.1
+407 verbose link bins [ { 'serialport-list': './bin/list.js',
+407 verbose link bins     'serialport-repl': './bin/repl.js',
+407 verbose link bins     'serialport-term': './bin/terminal.js' },
+407 verbose link bins   'C:\\Users\\tyly0\\Desktop\\Shoeband\\tap-e-oke\\node_modules\\.bin',
+407 verbose link bins   false ]
+408 verbose linkMans serialport@6.2.1
+409 verbose rebuildBundles serialport@6.2.1
+410 info install serialport@6.2.1
+411 verbose unsafe-perm in lifecycle true
+412 info serialport@6.2.1 Failed to exec install script
+413 verbose unlock done using C:\Users\tyly0\AppData\Roaming\npm-cache\_locks\serialport-7cd5a8a48420ba10.lock for C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+414 verbose stack Error: serialport@6.2.1 install: `prebuild-install || node-gyp rebuild`
+414 verbose stack Exit status 1
+414 verbose stack     at EventEmitter.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+414 verbose stack     at emitTwo (events.js:87:13)
+414 verbose stack     at EventEmitter.emit (events.js:172:7)
+414 verbose stack     at ChildProcess.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+414 verbose stack     at emitTwo (events.js:87:13)
+414 verbose stack     at ChildProcess.emit (events.js:172:7)
+414 verbose stack     at maybeClose (internal/child_process.js:827:16)
+414 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+415 verbose pkgid serialport@6.2.1
+416 verbose cwd C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+417 error Windows_NT 10.0.17134
+418 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "serialport"
+419 error node v4.4.2
+420 error npm  v2.15.0
+421 error code ELIFECYCLE
+422 error serialport@6.2.1 install: `prebuild-install || node-gyp rebuild`
+422 error Exit status 1
+423 error Failed at the serialport@6.2.1 install script 'prebuild-install || node-gyp rebuild'.
+423 error This is most likely a problem with the serialport package,
+423 error not with npm itself.
+423 error Tell the author that this fails on your system:
+423 error     prebuild-install || node-gyp rebuild
+423 error You can get information on how to open an issue for this project with:
+423 error     npm bugs serialport
+423 error Or if that isn't available, you can get their info via:
+423 error
+423 error     npm owner ls serialport
+423 error There is likely additional logging output above.
+424 verbose exit [ 1, true ]
+425 verbose unbuild node_modules\serialport
+426 info preuninstall serialport@6.2.1
+427 info uninstall serialport@6.2.1
+428 verbose unbuild rmStuff serialport@6.2.1 from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules
+429 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-list.cmd is being gently removed
+430 silly gentlyRm verifying C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is an npm working directory
+431 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-repl.cmd is being gently removed
+432 silly gentlyRm verifying C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is an npm working directory
+433 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-term.cmd is being gently removed
+434 silly gentlyRm verifying C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is an npm working directory
+435 silly gentlyRm containing path C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is under npm's control, in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+436 silly gentlyRm deletion target C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-list.cmd is under C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+437 verbose gentlyRm vacuuming from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-list.cmd up to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+438 silly gentlyRm containing path C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is under npm's control, in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+439 silly gentlyRm deletion target C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-repl.cmd is under C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+440 verbose gentlyRm vacuuming from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-repl.cmd up to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+441 silly gentlyRm containing path C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is under npm's control, in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+442 silly gentlyRm deletion target C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-term.cmd is under C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+443 verbose gentlyRm vacuuming from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-term.cmd up to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+444 silly vacuum-fs removing C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-list.cmd
+445 silly vacuum-fs removing C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-repl.cmd
+446 silly vacuum-fs removing C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-term.cmd
+447 silly vacuum-fs quitting because other entries in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin
+448 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-repl is being gently removed
+449 silly gentlyRm verifying C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is an npm working directory
+450 silly gentlyRm containing path C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is under npm's control, in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+451 silly gentlyRm deletion target C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-repl is under C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+452 verbose gentlyRm vacuuming from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-repl up to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+453 silly vacuum-fs quitting because other entries in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin
+454 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-list is being gently removed
+455 silly gentlyRm verifying C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is an npm working directory
+456 silly gentlyRm containing path C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is under npm's control, in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+457 silly gentlyRm deletion target C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-list is under C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+458 verbose gentlyRm vacuuming from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-list up to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+459 silly vacuum-fs quitting because other entries in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin
+460 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-term is being gently removed
+461 silly gentlyRm verifying C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is an npm working directory
+462 silly gentlyRm containing path C:\Users\tyly0\Desktop\Shoeband\tap-e-oke is under npm's control, in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+463 silly gentlyRm deletion target C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-term is under C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+464 verbose gentlyRm vacuuming from C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-term up to C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+465 silly vacuum-fs removing C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-repl
+466 silly vacuum-fs removing C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-list
+467 silly vacuum-fs removing C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin\serialport-term
+468 silly vacuum-fs quitting because other entries in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin
+469 silly vacuum-fs quitting because other entries in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin
+470 silly vacuum-fs quitting because other entries in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\.bin
+471 info postuninstall serialport@6.2.1
+472 silly gentlyRm C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport is being purged from base C:\Users\tyly0\Desktop\Shoeband\tap-e-oke
+473 verbose gentlyRm don't care about contents; nuking C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+474 silly vacuum-fs purging C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules\serialport
+475 silly vacuum-fs quitting because other entries in C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\node_modules
