@@ -3,7 +3,9 @@
     "title": "Far Cry 3: Blood Dragon Theme",
     "path": "/assets/songs/BloodDragonTheme.mp3",
     "art": "/assets/albums/FC3BDAlbum.jpg",
+    "id": "FC3BDTheme",
     "key": "farCry",
-    "info": "Artist: Power Glove"
+    "info": "Artist: Power Glove",
+    "start": 45
   }
 ]

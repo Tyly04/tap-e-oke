@@ -73,73 +73,104 @@ selectState.prototype = {
         var music = game.cache.getJSON("music");
         music.forEach(function(song){
           game.load.image(song.key, song.art);
+          game.load.audio(song.key, song.path);
         });
         game.load.onLoadComplete.addOnce(selectState.prototype.run);
         game.load.start();
     });
   },
   run: function(){
-    var music = game.cache.getJSON("music");
+    game.music = game.cache.getJSON("music");
     game.musicSelect = 0;
-    var itemSelect = game.add.sprite(game.width/2, game.height/2, game.menuKey);
-    itemSelect.anchor.setTo(0.5);
+    game.itemSelect = game.add.sprite(game.width/2, game.height/2, game.menuKey);
+    game.itemSelect.anchor.setTo(0.5);
     game.songs = game.add.group();
-    music.forEach(function(item, index){
+    game.cursorKeys.down.onDown.add(function(){
+      UpdateStomp.inputState = 1;
+    });
+    game.cursorKeys.down.onUp.add(function(){
+      UpdateStomp.inputState = 0;
+    });
+    game.cursorKeys.left.onDown.add(function(){
+      UpdateStomp.inputState = 2;
+    });
+    game.cursorKeys.left.onUp.add(function(){
+      UpdateStomp.inputState = 0;
+    });
+    game.music.forEach(function(item, index){
       var sprite = game.add.sprite((index * 310), game.height/2 - (game.height/3 - 20)/2, item.key);
+      game.songs.add(sprite);
       var ratio = sprite.width/sprite.height;
       sprite.width = ratio * (game.height/3 - 20);
       sprite.height = game.height/3 - 20;
-      sprite.title = game.add.text(0, -100, item.title, {
+      sprite.title = game.add.text(0, 0, item.title, {
         fill: "#ffffff",
-        fontSize: sprite.width,
+        fontSize: sprite.width/10,
         font: "Inconsolata",
         wordWrap: true,
-        wordWrapWidth: sprite.width * 10,
+        wordWrapWidth: sprite.width,
         align: 'center'
       });
-      sprite.title.x = sprite.title.width/2;
-      sprite.title.y = -sprite.title.height/2;
+      sprite.title.x = sprite.x + sprite.title.width/2;
+      sprite.title.y = sprite.y -sprite.title.height/2 - 10;
       sprite.title.anchor.setTo(0.5);
-      sprite.addChild(sprite.title);
-      sprite.info = game.add.text(0, sprite.height, item.info, {
+      sprite.info = game.add.text(0, 0, item.info, {
         fill: "#ffffff",
-        fontSize: sprite.width,
+        fontSize: sprite.width/12,
         font: "Inconsolata",
         wordWrap: true,
-        wordWrapWidth: sprite.width * 10,
+        wordWrapWidth: sprite.width,
         align: 'center'
       });
-      sprite.info.x = sprite.info.width/2;
-      sprite.info.y = window.innerHeight * 3;
+      sprite.info.x = sprite.x + sprite.info.width/2;
+      sprite.info.y = sprite.y + game.itemSelect.height + 10;
       sprite.info.anchor.setTo(0.5);
-      sprite.addChild(sprite.info);
-      game.songs.add(sprite);
-    });
-    selectState.prototype.updateSongSelect();
-  },
-  updateSongSelect: function(){
-    game.songs.children.forEach(function(sprite, index){
-      if(index !== game.musicSelect){
-        sprite.tint = 0x111111;
-        sprite.title.tint = 0x111111;
-        sprite.info.tint = 0x111111;
-      } else if (index === game.musicSelect){
-        sprite.tint = 0xffffff;
-        sprite.title.tint = 0xffffff;
-        sprite.info.tint = 0xffffff;
+      if(index === game.musicSelect){
+        var sound = game.add.sound(item.key);
+        sound.onDecoded.add(function(){
+          var tween = game.add.tween(sound);
+          sound.play('', item.start, 0);
+          tween.to({volume: 1}, 1000);
+          tween.start();
+        });
       }
     });
   },
   update: function(){
-    if(UpdateStomp.getPressedUpdate() && UpdateStomp.inputState === 2){
-      game.musicSelect++;
-      if(game.musicSelect >= game.songs.children.length){
-        game.musicSelect = 0;
+    if(game.songs){
+      game.songs.children.forEach(function(sprite, index){
+        sprite.title.x = sprite.x + sprite.title.width/2;
+        sprite.title.y = sprite.y -sprite.title.height/2 - 10;
+        sprite.info.x = sprite.x + sprite.info.width/2;
+        sprite.info.y = sprite.y + game.itemSelect.height + 10;
+        if(index !== game.musicSelect){
+          sprite.tint = 0x111111;
+          sprite.title.tint = 0x111111;
+          sprite.info.tint = 0x111111;
+        } else if (index === game.musicSelect){
+          sprite.tint = 0xffffff;
+          sprite.title.tint = 0xffffff;
+          sprite.info.tint = 0xffffff;
+        }
+      });
+  }
+  console.log(UpdateStomp.inputState);
+    if(UpdateStomp.getPressedUpdate()){
+      if(UpdateStomp.inputState === 2){
+        game.musicSelect++;
+        if(game.musicSelect >= game.songs.children.length){
+          game.musicSelect = 0;
+        }
+        var songT = game.add.tween(game.songs);
+        songT.to({x: -game.musicSelect * 310}, 2000);
+        songT.start();
+      } else if (UpdateStomp.inputState === 1){
+        if(game.music){
+          window.open('hard/' + game.music[game.musicSelect].id, "_self");
+        } else {
+          UpdateStomp.inputState = 0;
+        }
       }
-      var songT = game.add.tween(game.songs);
-      songT.to({x: -game.musicSelect * 310}, 2000);
-      songT.start();
-      selectState.prototype.updateSongSelect();
     }
   }
 };

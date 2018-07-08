@@ -25,7 +25,7 @@
       socket.on('input', function(data){
         UpdateStomp.inputState = 0;
         if(data.input){
-          var x = parseInt(data.input[0]));
+          var x = parseInt(data.input[0]);
           var y = parseInt(data.input[1]);
           var z = parseInt(data.input[2]);
           if(cX){

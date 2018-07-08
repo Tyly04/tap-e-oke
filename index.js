@@ -12,6 +12,9 @@ server.listen(80);
 app.get('/', function (req, res){
   res.sendFile(__dirname + "/index.html");
 });
+app.get('/hard/:songId/', function(req, res){
+  io.emit('params', {req.params});
+});
 //Example:
 //X:25\n
 //Y:25
