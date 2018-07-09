@@ -6,6 +6,9 @@
     "id": "FC3BDTheme",
     "key": "farCry",
     "info": "Artist: Power Glove",
-    "start": 45
+    "fourLane":
+    [],
+    "start": 45,
+    "bpm": 96
   }
 ]

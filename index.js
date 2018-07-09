@@ -9,11 +9,24 @@ var io = require("socket.io")(server);
 var fs = require('fs');
 app.use(express.static('public'));
 server.listen(80);
+io.on('connection', function(socket){
+
+});
 app.get('/', function (req, res){
   res.sendFile(__dirname + "/index.html");
 });
-app.get('/hard/:songId/', function(req, res){
-  io.emit('params', {req.params});
+app.get('/hard/editor/:id/', function(req,res){
+  res.sendFile(__dirname + "/hardeditor.html");
+  io.on('connection', function(socket){
+    socket.emit('params', {params: req.params});
+  });
+});
+app.get('/hard/:id/', function(req, res){
+  //I know this is global, but I currently don't have a fix.
+  res.sendFile(__dirname + "/hard.html");
+  io.on('connection', function(socket){
+    socket.emit('params', {params: req.params});
+  });
 });
 //Example:
 //X:25\n

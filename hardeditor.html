@@ -7,16 +7,13 @@
     overflow: hidden;
   }
   </style>
-    <script src="/socket.io/socket.io.js"></script>
-    <script>
+    <script src="../../../socket.io/socket.io.js"></script>
+      <script src="../../../assets/js/updateStomp.js"></script>
+      <script>
       var socket = io('http://localhost');
-      socket.on('serial', function (data) {
-        document.body.innerHTML += data.data;
-      });
-      </script>
-      <script src="assets/js/updateStomp.js"></script>
-    <script src="assets/js/phaser.min.js"></script>
-    <script src="assets/js/game.js"></script>
+    </script>
+    <script src="../../../assets/js/phaser.min.js"></script>
+    <script src="../../../assets/js/editor.js"></script>
     <script>
       var cX = null;
       var cY = null;
@@ -47,7 +44,7 @@
         }
       });
     </script>
-    <script src="assets/js/keyboard.js"></script>
+    <script src="../../../assets/js/keyboard.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   </script>
 </head>
