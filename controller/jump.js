@@ -1,43 +1,46 @@
-var noble = require('noble');
-var RSSI_THRESHOLD    = -90;
-var EXIT_GRACE_PERIOD = 2000; // milliseconds
-
-var inRange = [];
-
-noble.on('discover', peripheral => {
-    // connect to the first peripheral that is scanned
-    if (peripheral.rssi < RSSI_THRESHOLD) {
-    // ignore
-      return;
+var cString = "";
+var arr = [];
+var c = 0;
+function parseDat(data){
+  for(var i in data){
+    var char = data[i];
+    if(char === ","){
+      arr[c] = cString;
+      cString = "";
+      c += 1;
+    } else if (char === "#") {
+      arr[2] = cString;
+      cString = "";
+      var a = arr;
+      arr = [];
+      c = 0;
+      return a;
+    } else if(char !== "\n" && char !== "\r") {
+      cString += char;
     }
+  }
+  return null;
+}
+var BTSP = require('bluetooth-serial-port');
+var serial = new BTSP.BluetoothSerialPort();
+serial.on('found', function(address, name){
+  if(name.indexOf('DSD TECH') != -1){
+    console.log(address);
+    serial.findSerialPortChannel(address, function(channel){
+      console.log(channel);
+      serial.connect(address, channel, function(){
+        console.log('connected');
+        serial.on('data', function(buffer){
+          var dat = buffer.toString('utf8');
+          console.log(parseDat(dat));
 
-    var id = peripheral.id;
-    var entered = !inRange[id];
-
-    if (entered) {
-      inRange[id] = {
-        peripheral: peripheral
-      };
-
-      console.log('"' + peripheral + '" entered (RSSI ' + peripheral.rssi + ') ' + new Date());
-    }
-
-    inRange[id].lastSeen = Date.now();
-
-});
-noble.on('stateChange', state => {
-  if (state === 'poweredOn') {
-    console.log('Scanning');
-    noble.startScanning();
-  } else {
-    noble.stopScanning();
+        });
+      }, function(){
+        console.log('cannot connect');
+      });
+    }, function(){
+      console.log('found nothing');
+    });
   }
 });
-function connectAndSetUp(peripheral) {
-
-  peripheral.connect(error => {
-    console.log('Connected to', peripheral.id);
-  });
-
-  peripheral.on('disconnect', () => console.log('disconnected'));
-}
+serial.inquire();
