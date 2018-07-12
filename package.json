@@ -7,6 +7,7 @@
     "bluetooth-hci-socket": "^0.5.1",
     "bluetooth-serial-port": "^2.1.7",
     "express": "^4.16.3",
+    "hoek": "^5.0.3",
     "noble": "^1.9.1",
     "node-gyp": "^3.7.0",
     "serialport": "^6.2.1",
