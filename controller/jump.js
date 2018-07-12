@@ -28,6 +28,8 @@ var prevState = null;
 var cX = null;
 var cY = null;
 var cZ = null;
+var isDX = false;
+var isDY = false;
 serial.on('found', function(address, name){
   if(name.indexOf('DSD TECH') != -1){
     console.log(address);
@@ -52,25 +54,33 @@ serial.on('found', function(address, name){
               if(cX){
                 if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
                   //STOMP
-                  console.log("STOMP: " + prevState);
-                  if(prevState !== null){
-                    exec('start ' + prevState);
-                    prevState = null;
-                  }
+                  exec('start space');
                 }
+                isDX = false;
+                isDY = false;
                 if(Math.abs(cY) > Math.abs(y) && Math.abs(y) + sensitivity < Math.abs(cY)){
                   //LEFT
-                  prevState = "a";
+                  exec('start ahold');
+                  isDX = true;
                 } else if (Math.abs(cY) < Math.abs(y) && Math.abs(y) - sensitivity > Math.abs(cY)){
                   //RIGHT
-                  prevState = "d";
+                  exec('start dhold');
+                  isDX = true;
                 }
                 if(Math.abs(cX) > Math.abs(x) && Math.abs(x) + sensitivity < Math.abs(cX)){
                   //UP
-                  prevState = "w";
+                  exec('start whold');
+                  isDY = true;
                 } else if (Math.abs(cX) < Math.abs(x) && Math.abs(x) - sensitivity > Math.abs(cX)){
                   //DOWN
-                  prevState = "s";
+                  isDY = true;
+                  exec('start shold');
+                }
+                if(isDY){
+                  exec('start upy');
+                }
+                if(isDX){
+                  exec('start upx');
                 }
                 cX = x;
                 cY = y;

@@ -54,10 +54,14 @@ serial.on('found', function(address, name){
               y = y;
               z = x;
               var sensitivity = 3;
+              var isDown = false;
               if(cX){
                 if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
                   //STOMP;
-                  exec('start ' + prevState);
+                  if(prevState !== null){
+                    exec('start ' + prevState);
+                    prevState = null;
+                  }
                 }
                 console.log(data);
                 if(x > constants.x + sensitivity){
