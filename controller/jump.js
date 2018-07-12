@@ -25,6 +25,9 @@ noble.on('discover', peripheral => {
     inRange[id].lastSeen = Date.now();
 
 });
+function runCommand(dir){
+  exec(__dirname + dir + '.exe');
+}
 noble.on('stateChange', state => {
   if (state === 'poweredOn') {
     console.log('Scanning');
