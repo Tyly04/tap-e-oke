@@ -10,3 +10,7 @@ c	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\controller\jump.js	/^var c = 0;$/;"	
 parseDat	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\controller\jump.js	/^function parseDat(data){$/;"	function	line:4
 parseDat	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\controller\jump.js	/^function parseDat(data){$/;"	function	line:4
 BTSP	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\controller\jump.js	/^var BTSP = require('bluetooth-serial-port');$/;"	variable	line:24
+prevState	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\controller\jump.js	/^var prevState = null;$/;"	variable	line:27
+cX	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\controller\jump.js	/^var cX = null;$/;"	variable	line:28
+cY	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\controller\jump.js	/^var cY = null;$/;"	variable	line:29
+cZ	C:\Users\tyly0\Desktop\Shoeband\tap-e-oke\controller\jump.js	/^var cZ = null;$/;"	variable	line:30

@@ -23,6 +23,7 @@ function parseDat(data){
 }
 var BTSP = require('bluetooth-serial-port');
 var serial = new BTSP.BluetoothSerialPort();
+var {exec} = require('child_process');
 var prevState = null;
 var cX = null;
 var cY = null;
@@ -37,37 +38,37 @@ serial.on('found', function(address, name){
         serial.on('data', function(buffer){
           var dat = buffer.toString('utf8');
           var data = parseDat(dat);
-          console.log(data);
-            UpdateStomp.inputState = 0;
             if(data){
               //Configuration:
-              var x = parseInt(data.input[0]);
-              var y = parseInt(data.input[1]);
-              var z = parseInt(data.input[2]);
+              var x = parseInt(data[0]);
+              var y = parseInt(data[1]);
+              var z = parseInt(data[2]);
               //Should be how this is configured:
               //(Accounting for accelerometer rotation)
-              x = z * 1;
-              y = y * 1;
-              z = x * 1;
+              x = z;
+              y = y;
+              z = x;
+              var sensitivity = 3;
               if(cX){
-                if(cZ > Math.abs(z) && Math.abs(z) + 3 < Math.abs(cZ)){
+                if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
                   //STOMP
+                  console.log("STOMP: " + prevState);
                   if(prevState !== null){
-                    execute(__dirname + prevState + ".exe");
+                    exec('start ' + prevState);
                   }
                 }
                 prevState = null;
-                if(Math.abs(cY) > Math.abs(y) && Math.abs(y) + 3 < Math.abs(cY)){
+                if(Math.abs(cY) > Math.abs(y) && Math.abs(y) + sensitivity < Math.abs(cY)){
                   //LEFT
                   prevState = "a";
-                } else if (Math.abs(cY) < Math.abs(y) && Math.abs(y) - 3 > Math.abs(cY)){
+                } else if (Math.abs(cY) < Math.abs(y) && Math.abs(y) - sensitivity > Math.abs(cY)){
                   //RIGHT
                   prevState = "d";
                 }
-                if(Math.abs(cX) > Math.abs(x) && Math.abs(x) + 3 < Math.abs(cX)){
+                if(Math.abs(cX) > Math.abs(x) && Math.abs(x) + sensitivity < Math.abs(cX)){
                   //UP
                   prevState = "w";
-                } else if (Math.abs(cX) < Math.abs(x) && Math.abs(x) - 3 > Math.abs(cX)){
+                } else if (Math.abs(cX) < Math.abs(x) && Math.abs(x) - sensitivity > Math.abs(cX)){
                   //DOWN
                   prevState = "s";
                 }
