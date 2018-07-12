@@ -28,6 +28,11 @@ var prevState = null;
 var cX = null;
 var cY = null;
 var cZ = null;
+var constants = {
+  x: 1,
+  y: 2,
+  z: -1
+};
 serial.on('found', function(address, name){
   if(name.indexOf('DSD TECH') != -1){
     console.log(address);
@@ -51,26 +56,20 @@ serial.on('found', function(address, name){
               var sensitivity = 3;
               if(cX){
                 if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
-                  //STOMP
-                  console.log("STOMP: " + prevState);
-                  if(prevState !== null){
-                    exec('start ' + prevState);
-                    prevState = null;
-                  }
+                  //STOMP;
+                  exec('start space')
                 }
-                if(Math.abs(cY) > Math.abs(y) && Math.abs(y) + sensitivity < Math.abs(cY)){
-                  //LEFT
-                  prevState = "a";
-                } else if (Math.abs(cY) < Math.abs(y) && Math.abs(y) - sensitivity > Math.abs(cY)){
-                  //RIGHT
-                  prevState = "d";
+                console.log(data);
+                if(x > constants.x + sensitivity){
+                  //TILT FORWARD;
+                  exec('start w');
+                } else if (x < constants.x - sensitivity){
+                  exec('start s');
                 }
-                if(Math.abs(cX) > Math.abs(x) && Math.abs(x) + sensitivity < Math.abs(cX)){
-                  //UP
-                  prevState = "w";
-                } else if (Math.abs(cX) < Math.abs(x) && Math.abs(x) - sensitivity > Math.abs(cX)){
-                  //DOWN
-                  prevState = "s";
+                if(y > constants.y + sensitivity){
+                  exec('start a');
+                } else if (y < constants.y - sensitivity){
+                  exec('start d');
                 }
                 cX = x;
                 cY = y;
