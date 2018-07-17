@@ -33,13 +33,13 @@ var constants = {
   y: 2,
   z: -1
 };
+//Figured out bug: X axis counts as z, but you push down from any rotation. Count stomp only when rotated a certain way.
 serial.on('found', function(address, name){
   if(name.indexOf('DSD TECH') != -1){
-    console.log(address);
     serial.findSerialPortChannel(address, function(channel){
       console.log(channel);
       serial.connect(address, channel, function(){
-        console.log('connected');
+        console.log('connected.');
         serial.on('data', function(buffer){
           var dat = buffer.toString('utf8');
           var data = parseDat(dat);
@@ -54,16 +54,29 @@ serial.on('found', function(address, name){
               y = y;
               z = x;
               var sensitivity = 3;
-              var isDown = false;
               if(cX){
+                if(prevState !== null){
+                  //STOMP FACING forward
                 if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
                   //STOMP;
-                  if(prevState !== null){
                     exec('start ' + prevState);
-                    prevState = null;
-                  }
+                } else if (cZ < Math.abs(z) && Math.abs(z) - sensitivity > Math.abs(cZ)){
+                    exec('start ' + prevState);
                 }
-                console.log(data);
+                //Stomp facing up
+                if(cX > Math.abs(x) && Math.abs(x) + sensitivity < Math.abs(cX)){
+                  exec('start ' + prevState);
+                } else if (cX < Math.abs(x) && Math.abs(x) - sensitivity > Math.abs(x)){
+                  exec('start ' + prevState);
+                }
+                //Stomp when left side is on bottom.
+                if(cY > Math.abs(y) && Math.abs(y) + sensitivity < Math.abs(cY)){
+                  exec('start ' + prevState);
+                } else if (cY < Math.abs(y) && Math.abs(y) - sensitivity > Math.abs(cY)){
+                  exec('start ' + prevState);
+                }
+                prevState = null;
+              }
                 if(x > constants.x + sensitivity){
                   //TILT FORWARD;
                   prevState = 'w';
