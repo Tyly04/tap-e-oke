@@ -32,7 +32,7 @@ var cY = null;
 var cZ = null;
 //Figured out bug: X axis counts as z, but you push down from any rotation. Count stomp only when rotated a certain way.
 serial.on('found', function(address, name){
-  if(name.indexOf('DSD TECH') != -1){
+  if(name.indexOf('DSD TECH') !== -1){
     serial.findSerialPortChannel(address, function(channel){
       console.log(channel);
       serial.connect(address, channel, function(){
