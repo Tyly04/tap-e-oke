@@ -59,21 +59,21 @@ serial.on('found', function(address, name){
                   //STOMP FACING forward
                 if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
                   //STOMP;
-                    exec('start ' + prevState);
+                    exec('.\\variable.exe ' + prevState + " n");
                 } else if (cZ < Math.abs(z) && Math.abs(z) - sensitivity > Math.abs(cZ)){
-                    exec('start ' + prevState);
+                    exec('.\\variable.exe ' + prevState + " n");
                 }
                 //Stomp facing up
                 if(cX > Math.abs(x) && Math.abs(x) + sensitivity < Math.abs(cX)){
-                  exec('start ' + prevState);
+                  exec('.\\variable.exe ' + prevState + " n");
                 } else if (cX < Math.abs(x) && Math.abs(x) - sensitivity > Math.abs(x)){
-                  exec('start ' + prevState);
+                  exec('.\\variable.exe ' + prevState +  " n");
                 }
                 //Stomp when left side is on bottom.
                 if(cY > Math.abs(y) && Math.abs(y) + sensitivity < Math.abs(cY)){
-                  exec('start ' + prevState);
+                  exec('.\\variable.exe ' + prevState + " n");
                 } else if (cY < Math.abs(y) && Math.abs(y) - sensitivity > Math.abs(cY)){
-                  exec('start ' + prevState);
+                  exec('.\\variable.exe ' + prevState + " n");
                 }
                 prevState = null;
               }

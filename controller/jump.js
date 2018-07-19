@@ -1,4 +1,4 @@
-var cString = "";
+ var cString = "";
 var arr = [];
 var c = 0;
 function parseDat(data){
@@ -54,33 +54,35 @@ serial.on('found', function(address, name){
               if(cX){
                 if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
                   //STOMP
-                  exec('start space');
+                  exec('.\\variable.exe Space');
                 }
                 isDX = false;
                 isDY = false;
                 if(Math.abs(cY) > Math.abs(y) && Math.abs(y) + sensitivity < Math.abs(cY)){
                   //LEFT
-                  exec('start ahold');
+                  exec('.\\variable.exe a down');
                   isDX = true;
                 } else if (Math.abs(cY) < Math.abs(y) && Math.abs(y) - sensitivity > Math.abs(cY)){
                   //RIGHT
-                  exec('start dhold');
+                  exec('.\\variable.exe d down');
                   isDX = true;
                 }
                 if(Math.abs(cX) > Math.abs(x) && Math.abs(x) + sensitivity < Math.abs(cX)){
                   //UP
-                  exec('start whold');
+                  exec('.\\variable.exe w down');
                   isDY = true;
                 } else if (Math.abs(cX) < Math.abs(x) && Math.abs(x) - sensitivity > Math.abs(cX)){
                   //DOWN
                   isDY = true;
-                  exec('start shold');
+                  exec('.\\variable.exe s down');
                 }
                 if(isDY){
-                  exec('start upy');
+                  exec('.\\variable.exe s up');
+                  exec('.\\variable.exe w up');
                 }
                 if(isDX){
-                  exec('start upx');
+                  exec('.\\variable.exe a up');
+                  exec('.\\variable.exe d up')
                 }
                 cX = x;
                 cY = y;

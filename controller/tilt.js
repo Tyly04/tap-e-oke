@@ -57,19 +57,19 @@ serial.on('found', function(address, name){
               if(cX){
                 if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
                   //STOMP;
-                  exec('start space')
+                  exec('.\\space.exe')
                 }
                 console.log(data);
                 if(x > constants.x + sensitivity){
                   //TILT FORWARD;
-                  exec('start w');
+                  exec('.\\variable.exe w n');
                 } else if (x < constants.x - sensitivity){
-                  exec('start s');
+                  exec('.\\variable.exe s n');
                 }
                 if(y > constants.y + sensitivity){
-                  exec('start a');
+                  exec('.\\variable.exe a n');
                 } else if (y < constants.y - sensitivity){
-                  exec('start d');
+                  exec('.\\variable.exe d n');
                 }
                 cX = x;
                 cY = y;

@@ -1,3 +1,5 @@
+//https://github.com/Tyly04/tap-e-oke/tree/master/controller
+//Requires Node.js and possibly Autohotkey
 var cString = "";
 var arr = [];
 var c = 0;
@@ -28,11 +30,6 @@ var prevState = null;
 var cX = null;
 var cY = null;
 var cZ = null;
-var constants = {
-  x: 1,
-  y: 2,
-  z: -1
-};
 //Figured out bug: X axis counts as z, but you push down from any rotation. Count stomp only when rotated a certain way.
 serial.on('found', function(address, name){
   if(name.indexOf('DSD TECH') != -1){
@@ -57,23 +54,28 @@ serial.on('found', function(address, name){
               if(cX){
                 if(prevState !== null){
                   //STOMP FACING forward
+                  console.log("Acceleration + Tilt: " + x + "," +  y + "," + z)
                 if(cZ > Math.abs(z) && Math.abs(z) + sensitivity < Math.abs(cZ)){
                   //STOMP;
-                  
+
                 } else if (cZ < Math.abs(z) && Math.abs(z) - sensitivity > Math.abs(cZ)){
 
                 }
                 //Stomp facing up
                 if(cX > Math.abs(x) && Math.abs(x) + sensitivity < Math.abs(cX)){
-                  exec('start w');
+                  console.log("STOMP BACKWARD");
+                  exec('.\\variable.exe s n');
                 } else if (cX < Math.abs(x) && Math.abs(x) - sensitivity > Math.abs(x)){
-                  exec('start s');
+                  console.log("STOMP FORWARD");
+                  exec('.\\variable.exe w n');
                 }
                 //Stomp when left side is on bottom.
                 if(cY > Math.abs(y) && Math.abs(y) + sensitivity < Math.abs(cY)){
-                  exec('start a');
+                  console.log("STOMP LEFT");
+                  exec('.\\variable.exe a n');
                 } else if (cY < Math.abs(y) && Math.abs(y) - sensitivity > Math.abs(cY)){
-                  exec('start d');
+                  exec('.\\variable.exe d n');
+                  console.log("STOMP RIGHT");
                 }
                 prevState = null;
               }
